@@ -10,3 +10,18 @@
 git add README.md
 git commit
 ```
+
+4. Do more work (add and commit)
+
+* Graphic
+This it roughly what the current tree may look like
+(The letters used are commits but are only used to express the look of the current branching. Not specific commits)
+
+```
+A           <- master
+ \
+  B--C--D   <- nonDiverged
+```
+
+5. Ensure you are on the correct branch
+`git checkout nonDiverged`
