@@ -25,3 +25,16 @@ A           <- master
 
 5. Ensure you are on the correct branch
 `git checkout nonDiverged`
+
+6. Checkout a new branch (this will be the branch that is squashed)
+(`c0` is used to represent a candidate branch)
+`git checkout -b nonDiverged-c0`
+
+* Graphic
+This is roughly what the current tree may look like
+
+```
+A           <- master
+ \
+  B--C--D   <- nonDiverged, nonDiverged-c0
+```
