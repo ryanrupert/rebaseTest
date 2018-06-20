@@ -25,7 +25,7 @@ A--E           <- master
 5. Ensure you are on the correct branch
 `git checkout nonDiverged`
 
-6. Update the current branch with master by rebasing (but don't rebase a shared branch. It causes problems)
+6. Update the current branch with master by rebasing (but "No one shall rebase a shared branch" as written by Pierre de Wulf. It causes problems. Meaning if you have pushed the branch DON'T rebase)
 `git rebase master`
 
 * Graphic

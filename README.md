@@ -4,6 +4,7 @@ This is a test repository used for testing out how `git rebase` works.
 ## Sources
 The guide used is from [James Cooke "Git: To squash or not to squash](https://jamescooke.info/git-to-squash-or-not-to-squash.html).
 And [César Ferreira "Mastering Git - Why Rebase is amazing"](https://hackernoon.com/mastering-git-why-rebase-is-amazing-a954485b128a) as reference for reapplying commits.
+Golden rule quote from [Pierre de Wulf "Git rebase and the golden rule explaine"](https://medium.freecodecamp.org/git-rebase-and-the-golden-rule-explained-70715eccc372).
 
 ## Instructions
 For experimentation (the steps and commands used here are what were used in creating this repository):
