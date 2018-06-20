@@ -73,3 +73,19 @@ A           <- master
  \
   E         <- nonDiverged-c0
 ```
+
+8. Merge to master
+This will move the current commit on this branch to master
+```
+git checkout master
+git merge nonDiverged-c0 master
+```
+
+* Graphic
+This is roughly what the current tree may look like
+
+```
+A--E        <- master, nonDiverged-c0
+ \
+  B--C--D   <- nonDiverged
+```
