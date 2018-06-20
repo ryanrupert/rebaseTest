@@ -2,7 +2,7 @@
 This is a test repository used for testing out how `git rebase` works.
 
 ## Sources
-The guide used is from https://jamescooke.info/git-to-squash-or-not-to-squash.html
+The guide used is from [James Cooke "Git: To squash or not to squash](https://jamescooke.info/git-to-squash-or-not-to-squash.html).
 
 ## Instructions
 For experimentation (the steps and commands used here are what were used in creating this repository):
