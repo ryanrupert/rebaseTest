@@ -18,4 +18,6 @@ git add README.md
 git commit
 ```
 
-Now This is broken up into branches that have not diverged and branches that have diverged.
+Now This is broken up into branches that have not diverged and branches that have diverged all in separate files.
+
+[Non-Diverged](./non-diverged.md)
