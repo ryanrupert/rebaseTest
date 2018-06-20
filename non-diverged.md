@@ -38,3 +38,38 @@ A           <- master
  \
   B--C--D   <- nonDiverged, nonDiverged-c0
 ```
+
+7. Now squash the commits
+`git rebase --interactive master`
+
+This opens an editor which to keep and which to squash (the file is read from top to bottom).
+
+```
+pick <commit id> B
+squash <commit id> C
+squash <commit id> D
+```
+
+Git will now merge all the squash commits into the pick
+
+And will ask for a commit message
+
+```
+Add Non-Diverged section to README.md
+
+* Add Non-Diverged Branch section
+* Add step 4 and graphic to Non-Diverged Branch
+* Add steps, graphic and fix previous graphic
+```
+It is a good idea to have a mini list like above of the commit titles that were squashed. This is so that you don't lose history. And the commit title for this one should be over all what this commit does.
+
+* Graphic
+This is rouphly what the current tree may look like
+
+```
+A           <- master
+|\
+| B--C--D   <- nonDiverged
+ \
+  E         <- nonDiverged-c0
+```
